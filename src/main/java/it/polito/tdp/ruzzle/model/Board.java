@@ -15,7 +15,8 @@ import javafx.beans.property.StringProperty;
  */
 public class Board {
 	private List<Pos> positions;
-	private Map<Pos, StringProperty> cells;
+	private Map<Pos, StringProperty> cells; 
+	// String property non è una stringa, ma una variabile di stato che permette di comunicare direttamente tra modello e view
 
 	private int size;
 
